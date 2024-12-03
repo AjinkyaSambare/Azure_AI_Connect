@@ -8,8 +8,8 @@ from typing import Dict, Any
 
 class AzureOpenAIChat:
     def __init__(self):
-        self.API_ENDPOINT = st.secrets("AZURE_OPENAI_API_ENDPOINT", "")
-        self.API_KEY = st.secrets("AZURE_OPENAI_API_KEY", "")
+        self.API_ENDPOINT = st.secrets.get("AZURE_OPENAI_API_ENDPOINT", "")
+        self.API_KEY = st.secrets.get("AZURE_OPENAI_API_KEY", "")
 
     def generate_response(self, query: str, max_tokens: int = 300) -> Dict[str, Any]:
         """Generate response from Azure OpenAI"""
