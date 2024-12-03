@@ -47,7 +47,7 @@ To interact with the Azure OpenAI API, you will need to set up a secret with you
 2. Creating an OpenAI resource and obtaining your **API endpoint** and **API key**.
 3. Storing these credentials as secrets in your Streamlit app.
 
-In your `.streamlit/secrets.toml` file, add the following:
+In your `.secrets.toml` file, add the following:
 
 ```bash
 AZURE_OPENAI_API_ENDPOINT = "your_api_endpoint"
