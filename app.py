@@ -4,7 +4,6 @@ import os
 from typing import Dict, Any
 
 
-# Load environment variables
 
 
 class AzureOpenAIChat:
