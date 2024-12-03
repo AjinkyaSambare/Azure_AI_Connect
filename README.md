@@ -18,7 +18,7 @@ The application uses **Streamlit** for the frontend to create an interactive cha
   - Sending requests to the Azure OpenAI API for generating responses.
   - Managing the chat history using `st.session_state`.
 
-- **`.streamlit/secrets.toml`**: This file stores sensitive credentials, such as your Azure OpenAI API endpoint and key, to keep them secure and out of the codebase.
+- **`.secrets.toml`**: This file stores sensitive credentials, such as your Azure OpenAI API endpoint and key, to keep them secure and out of the codebase.
 
 - **`requirements.txt`**: A file that lists all the dependencies (Streamlit and Requests) required to run the app.
 
@@ -74,7 +74,7 @@ This will open a web interface in your browser where you can start chatting with
   - Sending requests to the Azure OpenAI API for generating responses.
   - Managing the chat history using `st.session_state`.
 
-- **`.streamlit/secrets.toml`**: This file stores sensitive credentials, such as your Azure OpenAI API endpoint and key, to keep them secure and out of the codebase.
+- **`.secrets.toml`**: This file stores sensitive credentials, such as your Azure OpenAI API endpoint and key, to keep them secure and out of the codebase.
 
 - **`requirements.txt`**: A file that lists all the dependencies (Streamlit and Requests) required to run the app.
 
