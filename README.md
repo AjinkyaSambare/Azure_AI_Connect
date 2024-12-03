@@ -1,3 +1,6 @@
+Here is a `README.md` file that explains the setup, how to run the application, and an overview of the code structure:
+
+
 # Azure OpenAI Chat
 
 This is a simple web application built using Streamlit and the Azure OpenAI API that interacts with the GPT-4 model to generate responses based on user input.
@@ -5,6 +8,20 @@ This is a simple web application built using Streamlit and the Azure OpenAI API 
 ## Overview
 
 The application allows users to send queries to Azure OpenAI's GPT-4 model and receive responses in real-time. The app uses Streamlit for the frontend and Python for the backend, with requests made to the Azure API for AI-powered responses.
+
+## How the App Was Built
+
+The application uses **Streamlit** for the frontend to create an interactive chat interface. **Azure OpenAI API** is used for generating responses based on user queries. The app sends user input to the Azure OpenAI API and displays the generated response in the chat interface.## Code Structure
+
+- **`app.py`**: This is the main Python script that contains the logic for the application. It handles:
+  - User input and chat display using Streamlit components.
+  - Sending requests to the Azure OpenAI API for generating responses.
+  - Managing the chat history using `st.session_state`.
+
+- **`.streamlit/secrets.toml`**: This file stores sensitive credentials, such as your Azure OpenAI API endpoint and key, to keep them secure and out of the codebase.
+
+- **`requirements.txt`**: A file that lists all the dependencies (Streamlit and Requests) required to run the app.
+
 
 ## Features
 - **Chat Interface**: Users can type in a message and receive responses from GPT-4.
@@ -52,8 +69,15 @@ This will open a web interface in your browser where you can start chatting with
 
 ## Code Structure
 
-- **app.py**: The main Python script that contains the logic for the application. It defines the `AzureOpenAIChat` class to interact with the Azure OpenAI API and handles the Streamlit UI.
-- **secrets.toml**: A configuration file to securely store your Azure OpenAI API credentials.
+- **`app.py`**: This is the main Python script that contains the logic for the application. It handles:
+  - User input and chat display using Streamlit components.
+  - Sending requests to the Azure OpenAI API for generating responses.
+  - Managing the chat history using `st.session_state`.
+
+- **`.streamlit/secrets.toml`**: This file stores sensitive credentials, such as your Azure OpenAI API endpoint and key, to keep them secure and out of the codebase.
+
+- **`requirements.txt`**: A file that lists all the dependencies (Streamlit and Requests) required to run the app.
+
 
 ## How it Works
 
