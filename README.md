@@ -1,6 +1,3 @@
-Here is a `README.md` file that explains the setup, how to run the application, and an overview of the code structure:
-
-
 # Azure OpenAI Chat
 
 This is a simple web application built using Streamlit and the Azure OpenAI API that interacts with the GPT-4 model to generate responses based on user input.
